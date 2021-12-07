@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container {
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+    border: 0.1em solid #8008ea;
+    border-top: none;
+}
+
+/* styles for card elemets */
+.image {
+    border-radius: 50% / 10%;
+    transition: all .6s;
+    height: 37.5em;
+    width: 8.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* span element styles */
+.quote {
+    color: white;
+    font-size: 2em;
+}
+
+/* styles to be applied after a card is clicked */
+.imgClicked {
+    width: 27.5em;
+    border-radius: 1em;
+}
+
+.imgClicked .quote {
+    font-size: 3em;
+}
